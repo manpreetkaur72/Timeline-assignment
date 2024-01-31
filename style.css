@@ -1,0 +1,52 @@
+
+body{
+margin: 0px;
+height: 100vh;
+
+}
+
+
+.block--left{
+    font-size: arial;
+    font-weight: bold;
+    flex-direction: column;
+    justify-content: center;
+    display: flex; 
+    margin-left: 10px;
+    width: 45%;
+    height: 50px;
+    margin-top: 5px;
+    
+}
+
+.block--left--downleft{
+    align-items: flex-start;
+    margin-left: 10px;
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+.block--line{
+    border-left: 3px solid rgb(185, 46, 7);
+  height: 600px;
+  position: absolute;
+  left: 46%;
+  top: 0px;
+}
+
+.block--circle{
+    position: fixed;
+    left: 45%;
+    background-color: green;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.block--right{
+    width: 50%;
+    height: 50px;
+    font-weight: bold;
+    float: right;
+    margin-right: 0px;
+}
