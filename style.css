@@ -5,8 +5,13 @@ height: 100vh;
 
 }
 
+.block{
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
 
-.block--left{
+.block__left{
     font-size: arial;
     font-weight: bold;
     flex-direction: column;
@@ -19,14 +24,9 @@ height: 100vh;
     
 }
 
-.block--left--downleft{
-    align-items: flex-start;
-    margin-left: 10px;
-    width: 45%;
-    margin-bottom: 20px;
-}
 
-.block--line{
+
+.block__line{
     border-left: 3px solid rgb(185, 46, 7);
   height: 600px;
   position: absolute;
@@ -34,7 +34,7 @@ height: 100vh;
   top: 0px;
 }
 
-.block--circle{
+.block__circle{
     position: fixed;
     left: 45%;
     background-color: green;
@@ -43,10 +43,16 @@ height: 100vh;
     height: 30px;
 }
 
-.block--right{
+.block__right{
     width: 50%;
     height: 50px;
     font-weight: bold;
-    float: right;
+    /* float: right; */
     margin-right: 0px;
+
+    margin-left: 40px;
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    width: 50%;
 }
